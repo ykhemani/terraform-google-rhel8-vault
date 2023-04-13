@@ -12,17 +12,17 @@ Set the following Terraform variables to run this Terraform configuration:
 | Variable | Value | Type |
 |----------|-------|------|
 | `bastion_machine_type` | `n2-standard-4` | terraform |
-| `bastion_name` | <Name for bastion host> | terraform |
-| `cidr_ingress_https_allow` | <List of CIDR's from which to allow https access> | terraform |
-| `cidr_ingress_ssh_allow` | <List of CIDR's from which to allow ssh access> | terraform |
-| `cidr_ingress_vault_allow` | <List of CIDR's from which to allow vault access> | terraform |
-| `friendly_name_prefix` | <friendly naming prefix> | terraform |
-| `google_project_id` | <Google Project ID> | terraform |
-| `subnet_name` | <Name for subnet> | terraform |
-| `vpc_name` | <Name for VPC> | terraform |
-| `GOOGLE_CREDENTIALS` | <Google Credentials> | env |
-| `HCP_CLIENT_ID` | <HCP Service Principal Client ID> | env |
-| `HCP_CLIENT_SECRET` | <HCP Service Principal Client Secret> | env |
+| `bastion_name` | Name for bastion host | terraform |
+| `cidr_ingress_https_allow` | List of CIDR's from which to allow https access | terraform |
+| `cidr_ingress_ssh_allow` | List of CIDR's from which to allow ssh access | terraform |
+| `cidr_ingress_vault_allow` | List of CIDR's from which to allow vault access | terraform |
+| `friendly_name_prefix` | friendly naming prefix | terraform |
+| `google_project_id` | Google Project ID | terraform |
+| `subnet_name` | Name for subnet | terraform |
+| `vpc_name` | Name for VPC | terraform |
+| `GOOGLE_CREDENTIALS` | Google Credentials | env |
+| `HCP_CLIENT_ID` | HCP Service Principal Client ID | env |
+| `HCP_CLIENT_SECRET` | HCP Service Principal Client Secret | env |
 
 Please create `GOOGLE_CREDENTIALS` and `HCP_CLIENT_SECRET` as sensitive variables.
 
